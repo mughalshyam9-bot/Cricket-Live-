@@ -83,11 +83,6 @@ to{transform:translateX(-100%);}
 }
 
 </style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
-
-body{
-font-family:'Noto Nastaliq Urdu', Arial;
-}
 </head>
 
 <body>
@@ -128,8 +123,7 @@ show(0);
 });
 
 function show(i){
-if(d==4) four.play();
-if(d==6) six.play();
+
 let m=all[i];
 if(!m)return;
 
@@ -164,7 +158,4 @@ setInterval(()=>show(select.value),7000);
 </script>
 
 </body>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
-
-body{
 </html>
